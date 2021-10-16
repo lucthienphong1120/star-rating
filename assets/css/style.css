@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    height: 625px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,blue,green) no-repeat;
+}
+/* ---------------------start--------------------- */
+.rating-star {
+    background-color: whitesmoke;
+    width: 100%;
+}
+/* color star */
+.star-icon {
+    color: #ffe400;
+    font-size: 15px;
+    text-align: center;
+}
+.rating-star input {
+    display: none;
+}
+/* custom fix */
+.rating-star label {
+    margin: 0 8px;
+    font-size: 60px;
+    width: 15%;
+    cursor: pointer;
+}
+/* star doesn't choose */
+.rating-star input:checked + label ~ label {
+    color: #838383; /* nền màu xám */
+    /* nền trong suốt
+    color: #ffe400;
+    font-weight: unset; */
+}
