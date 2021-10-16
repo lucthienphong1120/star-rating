@@ -32,8 +32,9 @@ body {
 }
 /* star doesn't choose */
 .rating-star input:checked + label ~ label {
-    color: #838383; /* nền màu xám */
-    /* nền trong suốt
+/*     nền màu xám      */
+/*     color: #838383;  */
+/*     nền trong suốt   */
     color: #ffe400;
-    font-weight: unset; */
+    font-weight: unset;
 }
