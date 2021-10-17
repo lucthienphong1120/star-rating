@@ -10,8 +10,10 @@ body {
     background: linear-gradient(45deg,blue,green) no-repeat;
 }
 /* ---------------------start--------------------- */
-.rating-star {
+.main {
     background-color: white;
+}
+.rating-star {
     display: flex;
     align-items: center;
     justify-content: space-between;
