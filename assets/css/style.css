@@ -11,30 +11,37 @@ body {
 }
 /* ---------------------start--------------------- */
 .rating-star {
-    background-color: whitesmoke;
-    width: 100%;
-}
-/* color star */
-.star-icon {
-    color: #ffe400;
-    font-size: 15px;
-    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
 }
 .rating-star input {
     display: none;
 }
-/* custom fix */
+/* star checked */
 .rating-star label {
-    margin: 0 8px;
-    font-size: 60px;
-    width: 15%;
+    color: #ffe400;
     cursor: pointer;
+    font-weight: 900;
 }
-/* star doesn't choose */
+/* star uncheck */ 
 .rating-star input:checked + label ~ label {
-/*     nền màu xám      */
-/*     color: #838383;  */
-/*     nền trong suốt   */
+    color: #838383;
+    font-weight: unset;
+}
+/*
+color là màu khung
+font-weight: 900; là đặc 
+font-weight: unset; là rỗng
+*/
+.rating-star .star-checked {
+    color: #ffe400;
+    font-weight: 900;
+}
+
+.rating-star .star-uncheck {
     color: #ffe400;
     font-weight: unset;
 }
