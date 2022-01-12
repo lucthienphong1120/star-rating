@@ -1,3 +1,3 @@
 # star-rating
 
-/dev by LTP
+library star rating css
