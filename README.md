@@ -1,3 +1,3 @@
 # star-rating
 
-library star rating css
+star rating css library
